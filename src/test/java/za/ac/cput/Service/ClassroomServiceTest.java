@@ -8,8 +8,8 @@ import za.ac.cput.Factory.ClassroomFactory;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@TestMethodOrder(MethodOrderer.MethodName.class)
-class ClassroomServiceTest {
+@TestMethodOrder(MethodOrderer.OrderAnnotation.class)
+class  ClassroomServiceTest {
     private static ClassroomService service = ClassroomService.getService();
     private static Classroom classroom = ClassroomFactory.build("A10");
 

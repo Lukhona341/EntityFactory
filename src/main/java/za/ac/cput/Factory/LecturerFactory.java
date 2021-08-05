@@ -20,4 +20,6 @@ public static Lecturer createLecturer(String name, String surname, String id){
 return lecturer;
 
 }
+
+
 }
